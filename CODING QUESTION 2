@@ -1,0 +1,60 @@
+package labTest;
+import java.util.Scanner;
+public class Question2 {
+
+	public static void main(String[] args) {
+		//Write a program that prompts user for the mark (between 0-100 in int) of 3 students; computes the average (in double); and prints the result rounded to 2 decimal places. Your program needs to perform input validation. For examples:
+
+			//Enter the mark (0-100) for student 1: 56
+			//Enter the mark (0-100) for student 2: 101
+			//Invalid input, try again...
+			//Enter the mark (0-100) for student 2: -1
+			//Invalid input, try again...
+			//Enter the mark (0-100) for student 2: 99
+			//Enter the mark (0-100) for student 3: 45
+			//The average is: 66.67
+		
+		Scanner test = new Scanner (System.in);
+		System.out.println("Enter your marks (0-100): ");
+		double mark1 = test.nextDouble();
+		System.out.println("Mark for student 1: " + mark1);
+		
+		while(mark1 >0 && mark1> 100) {
+			System.out.println("Invalid input, try again...");
+			mark1 = test.nextDouble();
+			System.out.println("Mark for student 1: " + mark1);
+			
+		}
+		
+		
+	
+		System.out.println("Enter your marks (0-100): ");
+		double mark2 = test.nextDouble();
+		System.out.println("Mark for student 2: " + mark2);
+
+		
+		
+		System.out.println("Enter your marks (0-100): ");
+		double mark3 = test.nextDouble();
+		System.out.println("Mark for student 3: " + mark3);
+		
+		
+		
+		
+		
+	
+		
+		
+		double average = mark1/mark2/mark3;
+		
+		System.out.printf("Average is " +average);
+		
+		
+		
+		
+		
+
+	}
+
+}
+
