@@ -1,0 +1,13 @@
+Enter your marks (0-100): 
+101
+Mark for student 1: 101
+Invalid input, try again...
+87
+Mark for student 1: 87
+Enter your marks (0-100): 
+54
+Mark for student 2: 54
+Enter your marks (0-100): 
+73
+Mark for student 3: 73
+Average is 165.0
