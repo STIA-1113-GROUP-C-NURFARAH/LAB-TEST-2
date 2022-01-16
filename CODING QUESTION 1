@@ -1,0 +1,36 @@
+package labTest;
+import java.util.Scanner;
+public class CheckOddEVen {
+
+	public static void main(String[] args) {
+		//Write a program called CheckOddEven which prints "Odd Number" if the int variable “number” is odd, or “Even Number” otherwise. 
+		//The program shall always print “bye!” before exiting.
+		//**Hints
+		//n is an even number if (n % 2) is 0; otherwise, it is an odd number. Use == for comparison, e.g., (n % 2) == 0.
+
+		//Try number = 0, 1, 88, 99, -1, -2 and verify your results.
+		
+		Scanner test = new Scanner (System.in);
+		
+		int number; //for odd
+		int even; //for even number
+		int value;
+		
+		System.out.println("Enter number: ");
+		value = test.nextInt();
+		
+		if (value%2 != 0) {
+			System.out.println(value + " is odd number.");
+			
+		}else if (value%2 == 0) {
+				System.out.println(value + " is even number.");
+			}
+				
+			
+		}
+		
+		
+
+	}
+
+
