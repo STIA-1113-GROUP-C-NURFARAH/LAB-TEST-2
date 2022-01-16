@@ -26,7 +26,8 @@ public class CheckOddEVen {
 				System.out.println(value + " is even number.");
 			}
 				
-			
+				
+			System.out.println("BYEEEE");
 		}
 		
 		
