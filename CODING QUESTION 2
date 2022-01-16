@@ -16,12 +16,12 @@ public class Question2 {
 		
 		Scanner test = new Scanner (System.in);
 		System.out.println("Enter your marks (0-100): ");
-		double mark1 = test.nextDouble();
+		int mark1 = test.nextInt();
 		System.out.println("Mark for student 1: " + mark1);
 		
 		while(mark1 >0 && mark1> 100) {
 			System.out.println("Invalid input, try again...");
-			mark1 = test.nextDouble();
+			mark1 = test.nextInt();
 			System.out.println("Mark for student 1: " + mark1);
 			
 		}
@@ -29,13 +29,13 @@ public class Question2 {
 		
 	
 		System.out.println("Enter your marks (0-100): ");
-		double mark2 = test.nextDouble();
+		int mark2 = test.nextInt();
 		System.out.println("Mark for student 2: " + mark2);
 
 		
 		
 		System.out.println("Enter your marks (0-100): ");
-		double mark3 = test.nextDouble();
+		int mark3 = test.nextInt();
 		System.out.println("Mark for student 3: " + mark3);
 		
 		
@@ -45,9 +45,9 @@ public class Question2 {
 	
 		
 		
-		double average = mark1/mark2/mark3;
-		
-		System.out.printf("Average is " +average);
+		double average = mark1+mark2+mark3/3;
+		System.out.println("Average is " + average);
+	
 		
 		
 		
@@ -57,4 +57,6 @@ public class Question2 {
 	}
 
 }
+
+
 
